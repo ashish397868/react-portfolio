@@ -75,7 +75,7 @@ const LeetCodeStats = () => {
           {loading ? (
             <p className="text-gray-300 mt-4">Loading stats...</p>
           ) : (
-            <p className="text-gray-300 mt-4">
+            <p className="text-gray-300 mt-4 font-semibold">
               Total Problems Solved: {totalSolved} / {totalProblems}
             </p>
           )}
@@ -85,7 +85,7 @@ const LeetCodeStats = () => {
           {/* Stats Cards */}
           <div className="bg-[#261d45]/40 p-6 rounded-xl border border-[#4a3a7a] hover:border-[#c961de] transition-all duration-300">
             <h3 className="text-xl font-bold mb-4 text-center text-gray-200">Problem Solving Progress</h3>
-            <div className="space-y-6">
+            <div className="space-y-6 font-semibold">
               {stats.map((stat, index) => (
                 <div key={index}>
                   <div className="flex justify-between mb-2">
@@ -108,7 +108,7 @@ const LeetCodeStats = () => {
           {/* Activity Calendar */}
           <div className="bg-[#261d45]/40 p-6 rounded-xl border border-[#4a3a7a] hover:border-[#c961de] transition-all duration-300">
             <h3 className="text-xl font-bold mb-4 text-center text-gray-200">Submission Activity</h3>
-            <div className="calendar-heatmap">
+            <div className="calendar-heatmap ">
               {calendarData && (
                 <Calendar
                   data={transformData(calendarData.contributions)}
@@ -123,14 +123,14 @@ const LeetCodeStats = () => {
                 />
               )}
             </div>
-            <div className="mt-4">
+            <div className="mt-4 ">
               <div className="flex justify-between items-center">
-                <span className="text-gray-300">Success Rate</span>
-                <span className="text-green-400">{leetCodeData?.acceptanceRate || '0'}%</span>
+                <span className="text-gray-300 font-semibold">Success Rate</span>
+                <span className="text-green-400 font-semibold">{leetCodeData?.acceptanceRate || '0'}%</span>
               </div>
               <div className="flex justify-between items-center mt-2">
-                <span className="text-gray-300">Total Submissions</span>
-                <span className="text-[#7c3aed]">{leetCodeData?.totalSubmissions || '0'}</span>
+                <span className="text-gray-300 font-semibold">Total Submissions</span>
+                <span className="text-[#7c3aed] font-semibold">{leetCodeData?.totalSubmissions || '0'}</span>
               </div>
             </div>
           </div>

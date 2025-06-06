@@ -21,7 +21,7 @@ const Footer = () => {
            <FaGithub size="1.5em" />
         </>
       ),
-      href: "https://github.com/ak397",
+      href: "https://github.com/ashish397868",
       color: "hover:text-gray-400", // GitHub hover color
     },
     {
@@ -31,14 +31,14 @@ const Footer = () => {
            <HiOutlineMail size="1.5em"/>
         </>
       ),
-      href: "mailto:foo@gmail.com",
+      href: "mailto:ashish397868@gmail.com",
       color: "hover:text-[#EA4335]", // Gmail-like color
     },
   ]
   
   return (
     <footer className="relative flex justify-evenly lg:text-xl h-16 p-4 bg-gradient-to-r from-black via-[#1a0b2e] to-black text-white">
-      <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-5" />
+      <div className="absolute opacity-5" />
       <div className="relative z-10 lg:w-1/2">
         <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#c961de] to-[#7c3aed]">
           &copy; 2025 All Rights Reserved

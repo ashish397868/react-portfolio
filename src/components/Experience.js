@@ -179,7 +179,7 @@ const Experience = () => (
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.1, duration: 0.6, ease: "easeOut" }}
-        className="pb-8 text-gray-300"
+        className="pb-8 text-gray-300 font-semibold"
       >
         Technologies I’ve mastered through hands-on projects
       </motion.p>

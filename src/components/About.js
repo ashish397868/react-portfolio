@@ -83,7 +83,7 @@ const About = () => (
         <h2 className="text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-[#c961de] to-[#7c3aed]">
           About Me
         </h2>
-        <p className="mt-6 text-lg md:text-xl max-w-3xl mx-auto text-gray-300">
+        <p className="mt-6 ml-8 mx-auto text-gray-300 font-semibold text-center md:text-start">
           Passionate Mern Stack developer from Yamunanagar, Haryana, specializing in modern web technologies.
           Currently pursuing MCA from Maharaja Agrasen Institute of Management and Technology.
           I have a strong foundation in React, Node.js, and Tailwind CSS, and I'm dedicated to creating
@@ -152,14 +152,14 @@ const About = () => (
                 background: "rgba(26,0,26,0.7)",
                 backdropFilter: "blur(8px)",
                 borderRadius: "1rem",
-                border: "1px solid #2E003E",
+                border: "1px solid #2E003E"
               }}
               contentArrowStyle={{ borderRight: "7px solid rgba(26,0,26,0.7)" }}
               icon={item.icon}
             >
               <h3 className="text-xl font-bold text-[#FF00FF]">{item.title}</h3>
-              <h4 className="mt-1 text-gray-300">{item.subtitle}</h4>
-              <p className="mt-2 text-gray-400">{item.description}</p>
+              <h4 className="mt-1 text-gray-300 text-sm font-semibold">{item.subtitle}</h4>
+              <p className="mt-2 text-gray-300 font-semibold ">{item.description}</p>
             </VerticalTimelineElement>
           ))}
         </VerticalTimeline>
@@ -188,9 +188,9 @@ const About = () => (
                   </span>
                 </div>
                 <h4 className="text-lg font-semibold text-gray-100">{r.name}</h4>
-                <p className="text-sm text-[#c961de] mb-2">{r.role}</p>
+                <p className="text-sm text-[#c961de] mb-2 font-semibold">{r.role}</p>
                 <FaQuoteLeft className="text-[#7c3aed] text-xl mb-2" />
-                <p className="text-center text-gray-300 italic text-sm">{r.review}</p>
+                <p className="text-center text-gray-300 italic text-sm font-semibold">{r.review}</p>
               </div>
             </div>
           ))}

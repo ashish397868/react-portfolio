@@ -26,7 +26,7 @@ const Contact = () => {
   return (
     <div name="contact" className="w-full h-100 bg-gradient-to-br from-black via-[#1a0b2e] to-[#1a0b2e] p-4 text-white pt-32 relative">
       {/* subtle texture */}
-      <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-5" />
+      <div className="absolute opacity-5" />
       
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full relative z-10">
         <div className="pb-8 text-center">
@@ -35,7 +35,7 @@ const Contact = () => {
         </div>
 
         <div className="flex justify-center items-center">
-          <form
+   <form
             className="flex flex-col w-full md:w-1/2"
             ref={formTag}
           >
@@ -43,7 +43,7 @@ const Contact = () => {
               type="text" 
               name="name" 
               placeholder="Enter your name" 
-              className="p-2 bg-[#261d45]/20 border-2 border-[#4a3a7a] rounded-md text-white focus:outline-none focus:border-[#c961de] transition-colors duration-300 placeholder-gray-400" 
+              className="p-2 bg-[#261d45]/20 border-2 border-[#4a3a7a] rounded-md text-white focus:outline-none focus:ring-2 focus:ring-[#c961de]/50 focus:border-[#c961de] transition-all duration-300 placeholder-gray-400" 
               value={name} 
               onChange={(e) => setName(e.target.value)} 
             />
@@ -51,7 +51,7 @@ const Contact = () => {
               type="text" 
               name="email" 
               placeholder="Enter your email" 
-              className="my-4 p-2 bg-[#261d45]/20 border-2 border-[#4a3a7a] rounded-md text-white focus:outline-none focus:border-[#c961de] transition-colors duration-300 placeholder-gray-400" 
+              className="my-4 p-2 bg-[#261d45]/20 border-2 border-[#4a3a7a] rounded-md text-white focus:outline-none focus:ring-2 focus:ring-[#c961de]/50 focus:border-[#c961de] transition-all duration-300 placeholder-gray-400" 
               value={email} 
               onChange={(e) => setEmail(e.target.value)} 
             />
@@ -59,7 +59,7 @@ const Contact = () => {
               name="message" 
               placeholder="Enter your message" 
               rows="10" 
-              className="p-2 bg-[#261d45]/20 border-2 border-[#4a3a7a] rounded-md text-white focus:outline-none focus:border-[#c961de] transition-colors duration-300 placeholder-gray-400"
+              className="p-2 bg-[#261d45]/20 border-2 border-[#4a3a7a] rounded-md text-white focus:outline-none focus:ring-2 focus:ring-[#c961de]/50 focus:border-[#c961de] transition-all duration-300 placeholder-gray-400"
               value={message} 
               onChange={(e) => setMessage(e.target.value)}
             ></textarea>

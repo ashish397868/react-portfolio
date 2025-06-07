@@ -1,7 +1,5 @@
-import React from "react"
 import { BsArrowRight } from "react-icons/bs"
-// import HeroImage from "../assets/heroImage.png"
-import ashu from "../assets/ashu.png"
+import dp from "../assets/dp.png"
 import { Link } from "react-scroll"
 import {ReactTyped } from "react-typed"
 import { motion } from 'framer-motion'
@@ -11,7 +9,7 @@ const Home = () => {
   return (
     <div name="home" className="h-screen w-full bg-gradient-to-br from-black via-[#1a0b2e] to-[#1a0b2e] relative">
       {/* subtle texture */}
-      <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-5" />
+      <div className="absolute opacity-5" />
 
       <div className="max-w-screen-lg mx-auto flex items-center justify-center h-full px-4 flex-col-reverse md:flex-row relative z-10">
         <AnimatedSection className="flex flex-col justify-center h-full">
@@ -81,7 +79,7 @@ const Home = () => {
           <div className="relative group">
             <div className="absolute -inset-1 bg-gradient-to-r from-[#c961de] to-[#7c3aed] rounded-2xl blur opacity-30 group-hover:opacity-50 transition duration-500"></div>
             <img
-              src={ashu}
+              src={dp}
               alt="my profile"
               className="relative rounded-2xl mx-auto w-2/3 md:w-full transition-all duration-300 group-hover:scale-[1.02]"
             />

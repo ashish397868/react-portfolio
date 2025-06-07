@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import  { useRef } from "react";
 import CountUp from "react-countup";
 import { useInView } from "framer-motion";
 import { motion } from "framer-motion";

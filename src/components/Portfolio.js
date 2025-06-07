@@ -14,8 +14,8 @@ const Portfolio = () => {
       src: weather,
       title: "Weather App",
       description: "A React app fetching real-time weather forecasts with elegant UI.",
-      code: "https://github.com/ak397/weatherApp-usingReactJs",
-      demo: "https://weather-forecast-info.netlify.app/",
+      code: "https://github.com/ashish397868/weatherApp-usingReactJs",
+      demo: "https://reactjs-weatherify.netlify.app/",
       tags: ["React", "TailwindCSS", "Weather API"],
     },
     {
@@ -23,8 +23,8 @@ const Portfolio = () => {
       src: passwordGen,
       title: "Password Generator",
       description: "Generates secure passwords using customizable criteria.",
-      code: "https://github.com/ak397/react-password-generator",
-      demo: "https://password-generator91.netlify.app/",
+      code: "https://github.com/ashish397868/react-password-generator",
+      demo: "https://react-password-generatorify.netlify.app/",
       tags: ["React", "CSS", "JavaScript"],
     },
     {
@@ -32,8 +32,8 @@ const Portfolio = () => {
       src: ticTac,
       title: "Tic Tac Toe",
       description: "Classic Tic Tac Toe game built with React components.",
-      code: "https://github.com/ak397/react-tic-tac-toe",
-      demo: "https://react-tic-tac-toe-ak.netlify.app/",
+      code: "https://github.com/ashish397868/react-tic-tac-toe",
+      demo: "https://reactjs-tic-tac-toei.netlify.app/",
       tags: ["React", "CSS", "JavaScript"],
     },
     {
@@ -50,19 +50,10 @@ const Portfolio = () => {
       src: textUtils,
       title: "Text Utils",
       description: "Utility toolkit for transforming and analyzing text in React.",
-      code: "https://github.com/ak397/TextUtils-React",
-      demo: "https://ak397.github.io/TextUtils-React/",
+      code: "https://github.com/ashish397868/TextUtils-React",
+      demo: "https://reactjs-text-utility.netlify.app/",
       tags: ["React", "Bootstrap", "JavaScript"],
-    },
-    {
-      id: 6,
-      src: instaClone,
-      title: "Instagram Clone",
-      description: "Login page clone replicating Instagram UI using Tailwind CSS.",
-      code: "https://github.com/ak397/instagramLoginPageClone-usingTailwindCss",
-      demo: "https://instagramloginpageclone-usingtailwind.netlify.app/",
-      tags: ["HTML", "TailwindCSS"],
-    },
+    }
   ];
 
   return (

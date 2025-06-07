@@ -9,8 +9,8 @@ const Navbar = () => {
     { id: 2, link: "about" },
     { id: 3, link: "portfolio" },
     { id: 4, link: "experience" },
-    { id: 5, link: "leetcode" },
-    { id: 6, link: "contact" },
+    { id: 5, link: "contact" }
+    // { id: 6, link: "leetcode" }
   ];
 
   return (

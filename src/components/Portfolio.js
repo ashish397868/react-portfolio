@@ -5,7 +5,6 @@ import passwordGen from "../assets/portfolio/passwordGen.jpg";
 import ticTac from "../assets/portfolio/ticTac.jpg";
 import chatApp from "../assets/portfolio/chatApp.png";
 import textUtils from "../assets/portfolio/textUtils.jpg";
-import instaClone from "../assets/portfolio/instaClone.jpg";
 
 const Portfolio = () => {
   const portfolios = [
